@@ -1,0 +1,30 @@
+#app {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f7f9;
+  font-family: PingFangSC-Regular, PingFang SC;
+}
+
+// =================================
+// ==============scrollbar==========
+// =================================
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(0 0 0 / 5%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(144 147 153 / 30%);
+  border-radius: 4px;
+  box-shadow: inset 0 0 6px rgb(0 0 0 / 20%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b6b7b9;
+}
+

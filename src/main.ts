@@ -1,5 +1,7 @@
-import './assets/main.css'
-
+// import store from './store'
+import './utils/lazy_ui'
+import './styles/index.scss'
+import 'animate.css';
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 

@@ -1,0 +1,11 @@
+@import "./public.scss";
+@import "./variables.scss";
+@import "./common.scss";
+@import "./iconfonts";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}

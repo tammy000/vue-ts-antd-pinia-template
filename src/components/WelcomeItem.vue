@@ -21,7 +21,8 @@
 
 .details {
   flex: 1;
-  margin-left: 1rem;
+  margin-left: 50px;
+  color: rgba(60, 60, 60, 0.8);
 }
 
 i {
@@ -38,7 +39,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.4rem;
-  color: var(--color-heading);
+  color: rgba(20, 20, 20, 1);
 }
 
 @media (min-width: 1024px) {
@@ -49,7 +50,6 @@ h3 {
 
   i {
     top: calc(50% - 25px);
-    left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
     background: var(--color-background);

@@ -18,9 +18,9 @@ export default defineConfig({
         resolveStyle: (name) => {
           // 这里我没有引入less的css 文件因为我已经安装过了sass 不想重复安装一个预编译器。
           // 如果您的项目只需要ant 或者 两者都需要，请使用less。
-          if (name === 'theme') {
-            return ''; // 不引入 theme 组件的样式文件
-          }
+          // if (name === 'theme') {
+          //   return ''; // 不引入 theme 组件的样式文件
+          // }
           return `ant-design-vue/es/${name}/style/index.js`
         },
         resolveComponent: (name) => {

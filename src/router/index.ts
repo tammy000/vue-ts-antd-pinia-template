@@ -1,13 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import About from '../views/AboutView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
   {
     path: '/',
-    name: 'fileAi',
-    component: () => import(/* webpackChunkName: "fileAi" */ '@/views/fileAi/index.vue')
+    name: 'HomeView',
+    component: HomeView
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: About
   },
   {
     path: '/404',
